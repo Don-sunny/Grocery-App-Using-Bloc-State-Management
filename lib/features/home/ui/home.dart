@@ -35,7 +35,7 @@ class _HomeState extends State<Home> {
           Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => const Whilist(),
+                builder: (context) => const Whishlist(),
               ));
         } else if (state is HomeProductItemWhishlistedActionState) {
           ScaffoldMessenger.of(context).showSnackBar(
